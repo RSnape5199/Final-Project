@@ -1,73 +1,76 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" type"text/css" href="styles.css">
-<title>ASOS Plants</title>
-</head>
-<body>
-  <div>
-  <h1>ASOS Plants</h1>
-  <img src="" width="">
-</div>
-<center>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="master.css">
 
-<body>
-&nbsp; <br>
-<hr>
+    <title>Asos Plants</title>
+  </head>
+  <body>
+    <center>
+      <h1>ASOS PLANTS</h1>
 
-HOME | SERVICES | IMAGE GALLERY | ABOUT US | CONTACT US | PRIVACY POLICY |
+      <br>
+      <hr>
+        <a href="./index.html">HOME</a> | SERVICES | <a href="./imageGallery.html">IMAGE GALLERY</a> | ABOUT US | CONTACT US | PRIVACY POLICY |
+      <hr>
 
-<hr>
-</body>
-</center>
-</html>
+      <h2> *20% OFF EVERYTHING* </h2>
+      <h3> USE OUR CODE:PLANTSFORU </h3>
 
-<link rel="stylesheet" type="text/css" href="master.css">
+      <div class="container">
+        <div class="row" id="plantImages">
+          <div class="col-3 plantImageOuter">
+            <img src="plant1.jpg" alt="plant1"/>
+          </div>
+          <div class="col-3 plantImageOuter">
+            <img src="plant3.jpg" alt="plant3"/>
+          </div>
+          <div class="col-3 plantImageOuter">
+            <img src="plant4.jpeg" alt="plant4" />
+          </div>
+          <div class="col-3 plantImageOuter">
+            <img src="plant5.jpg" alt="plant5"/>
+          </div>
+        </div>
+      </div>
 
-<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    </center>
 
-</head>
-<div>
-  <h2><em><center>The Bluebell</center></em></h2>
-  <img src="bluebell.jpg" alt="bluebell" class="center" width="200px">
-  <p><center>Bluebells grow well in either sun or partial shade, but do better out of direct,
-    strong sunlight. They prefer a moist, but well-drained soil that doesn’t
-    dry out in summer.</center></p>
-</div>
+    <div class="field">
+      <form action="action_page.php">
 
-<div>
-  <h3><em><center>The Jasmine</center></em></h3>
-  <img src="jasmine.jpg" alt="jasmine" class="center" width="200px">
-  <p><center>Indoors, jasmines prefer a brightly lit position, preferably a south-facing or
-    west-facing aspect, but with some protection from strong, burning sunlight in
-    summer. They can be moved outside to a warm, sunny patio in summer, but make
-    sure you bring them back indoors before the weather turns cold and frosty in autumn.
-    They need a minimum temperature of 13-15°C.</center></p>
-</div>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-<div>
-  <h4><em><center>The Lavender</center></em></h4>
-  <img src="lavender.jpg" alt="lavender" class="center" width="200px">
-  <p><center>Easy to grow shrub that flowers in late spring and summer. Is best planted in
-    spring, in free-draining soil and thrives in full sun and is drought tolerant.</center></p>
-</div>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-<div>
-  <h5><em><center>The Lilies</center></em></h5>
-  <img src="lilly.jpg" alt="lilly" class="center" width="200px">
-  <p><center>Grown from bulbs, lilies are perennial flowers that will return year after year and
-    require minimal care, provided that you plant them in the right place. Plant in the fall,
-    a few weeks before the winter brings freezing temperatures, but ensure they are planted where
-    there is lots of available sunlight, betweem 6-8hrs per day.</center></p>
-</div>
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
 
-<div>
-  <h6><em><center>The Marigold</center></em></h6>
-  <img src="marigold.jpg" alt="marigold" class="center" width="200px">
-  <p><center>Marigolds need a sunny position, as they flower poorly in shade. They need a
-    well-drained soil that holds moisture during their summer flowering period.</center></p>
-</div>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-</body>
+        <input type="submit" value="Submit">
+
+      </form>
+    </div>
+
+    <center>
+      <div id='social-buttons'>
+          <button class='btn-twitter'>Twitter</button>
+          <button class='btn-facebook'>Facebook</button>
+          <button class='btn-pinterest'>Pinterest</button>
+        </div>
+      </div>
+    </center>
+
+  </body>
 </html>
