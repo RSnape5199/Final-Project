@@ -1,59 +1,76 @@
 <!DOCTYPE html>
 <html>
-<head>
-<h1>ASOS PLANTS</h1>
-<center>
-</head>
-<center>
-<body>
-&nbsp; <br>
-<hr>
-HOME | SERVICES | IMAGE GALLERY | ABOUT US | CONTACT US | PRIVACY POLICY |
-<hr>
+  <head>
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
 
-</body>
-</center>
-</html>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="master.css">
 
-<link rel="stylesheet" type="text/css" href="master.css">
-<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
-</head>
-
-<h2> 20% OFF EVERYTHING* </h2>
-<h3> USE OUR CODE:PLANTSFORU </h3>
-
-
-<div class="container">
-  <form action="action_page.php">
-
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-
-  </form>
-</div>
-<center>
-<div id='social-buttons'>
-      <button class='btn-twitter'>Twitter</button>
-      <button class='btn-facebook'>Facebook</button>
-      <button class='btn-pinterest'>Pinterest</button>
-    </div>
-  </div>
+    <title>Asos Plants</title>
+  </head>
   <body>
-  </center>
+    <center>
+      <h1>ASOS PLANTS</h1>
 
-  </html>
+      <br>
+      <hr>
+        HOME | SERVICES | IMAGE GALLERY | ABOUT US | CONTACT US | PRIVACY POLICY |
+      <hr>
+
+      <h2> *20% OFF EVERYTHING* </h2>
+      <h3> USE OUR CODE:PLANTSFORU </h3>
+
+      <div class="container">
+        <div class="row" id="plantImages">
+          <div class="col-3 plantImageOuter">
+            <img src="plant1.jpg" alt="plant1"/>
+          </div>
+          <div class="col-3 plantImageOuter">
+            <img src="plant3.jpg" alt="plant3"/>
+          </div>
+          <div class="col-3 plantImageOuter">
+            <img src="plant4.jpeg" alt="plant4" />
+          </div>
+          <div class="col-3 plantImageOuter">
+            <img src="plant5.jpg" alt="plant5"/>
+          </div>
+        </div>
+      </div>
+
+    </center>
+
+    <div class="field">
+      <form action="action_page.php">
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+
+      </form>
+    </div>
+
+    <center>
+      <div id='social-buttons'>
+          <button class='btn-twitter'>Twitter</button>
+          <button class='btn-facebook'>Facebook</button>
+          <button class='btn-pinterest'>Pinterest</button>
+        </div>
+      </div>
+    </center>
+
+  </body>
+</html>
